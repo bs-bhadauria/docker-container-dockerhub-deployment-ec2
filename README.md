@@ -1,6 +1,6 @@
-# 🚀 Docker Container Deployment on AWS EC2
+# Docker Container Deployment on AWS EC2
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates a complete end-to-end Docker workflow by building, packaging, and deploying a containerized application across multiple environments using AWS EC2 and Docker Hub.
 
@@ -8,7 +8,7 @@ The objective of this project is to understand how containerization enables port
 
 ---
 
-## 🧠 Key Concept
+## Key Concept
 
 **Build Once, Run Anywhere**
 
@@ -16,7 +16,7 @@ A Docker image is built on one EC2 instance, pushed to Docker Hub, and then pull
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Developer Code
@@ -40,7 +40,7 @@ Application Running in Browser
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Docker  
 - AWS EC2  
@@ -51,7 +51,7 @@ Application Running in Browser
 
 ---
 
-## 🔥 Features
+## Features
 
 - Docker image creation from application source code  
 - Containerized deployment on AWS EC2  
@@ -64,7 +64,7 @@ Application Running in Browser
 
 ---
 
-## 🛠️ Step-by-Step Implementation
+## Step-by-Step Implementation
 
 ### 1️⃣ Launch EC2 Instance
 
@@ -176,7 +176,7 @@ sudo ls /var/lib/docker/volumes/golang-volume/_data
 
 ---
 
-## 🔍 Concepts Covered
+## Concepts Covered
 
 - Image vs Container  
 - Multi-stage builds  
@@ -229,7 +229,7 @@ docker run -it ubuntu bash
 
 ---
 
-## 📈 Key Learnings
+## Key Learnings
 
 - Containers are lightweight  
 - Docker ensures consistency  
@@ -240,7 +240,7 @@ docker run -it ubuntu bash
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - CI/CD (GitHub Actions / Jenkins)  
 - Docker Compose  
@@ -249,12 +249,12 @@ docker run -it ubuntu bash
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Bhoopendra Singh Bhadauria
 
 ---
 
-## ⭐ Conclusion
+## Conclusion
 
 This project demonstrates a real-world Docker workflow from build to deployment across multiple environments.
